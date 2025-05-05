@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Adoção Responsável - Matilha Estrela</title>
+    <style>
+        :root {
+            --primary-color: #FF9D5C; /* Laranja */
+            --secondary-color: #FF7F27; /* Laranja mais escuro */
+            --text-color: #333;
+            --light-bg: #FFF4E6; /* Fundo creme claro */
+            --accent-color: #5D4037; /* Marrom escuro */
+            --radius: 10px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            padding: 30px 20px;
+            text-align: center;
+            color: var(--accent-color);
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .paw-icon {
+            font-size: 1.8rem;
+            margin-right: 10px;
+        }
+        
+        .heart-icon {
+            color: #E91E63;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .section-title {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .quote {
+            background-color: var(--light-bg);
+            padding: 15px;
+            border-left: 5px solid var(--primary-color);
+            margin: 15px 0;
+            font-style: italic;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        li:before {
+            content: "•";
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        
+        .contacts {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+            border-radius: var(--radius);
+            margin-top: 20px;
+        }
+        
+        .contacts h3 {
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .references {
+            font-size: 0.9rem;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .references h3 {
+            margin-bottom: 15px;
+        }
+        
+        .references p {
+            margin-bottom: 10px;
+        }
+        
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            transition: transform 0.2s;
+        }
+        
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .section-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="paw-icon">🐾</span> Guia de Adoção Responsável</h1>
+            <p>Matilha Estrela</p>
+        </header>
+        
+        <main>
+            <div class="section">
+                <h2 class="section-title">💛 O que é Adoção Responsável?</h2>
+                <p>
+                    Adoção responsável é o compromisso com o bem-estar do animal, assumido de forma consciente e definitiva. Segundo o Ministério Público do DF (MPDFT), "adotar é um ato de cidadania e empatia, que exige preparo emocional, financeiro e logístico".
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">🐶 Primeiros Cuidados Após a Adoção</h2>
+                <ul>
+                    <li>Prepare o ambiente com itens básicos: cama, comedouro, brinquedos e segurança.</li>
+                    <li>Mantenha a ração adequada e água limpa sempre disponíveis.</li>
+                    <li>Leve o animal ao veterinário nos primeiros dias.</li>
+                    <li>Evite situações estressantes nos primeiros momentos: barulhos, aglomerações ou contato forçado.</li>
+                </ul>
+                
+                <div class="quote">
+                    "O novo tutor deve entender que o animal pode demonstrar medo, latir, se esconder ou resistir ao toque. Isso é normal no início." – Guia do MPDFT
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">📋 Compromissos do Adotante</h2>
+                <ul>
+                    <li>Garantir alimentação e abrigo adequados.</li>
+                    <li>Levar o animal para vacinar, vermifugar e castrar.</li>
+                    <li>Proporcionar socialização e enriquecimento ambiental.</li>
+                    <li>Nunca abandonar, agredir ou negligenciar.</li>
+                    <li>Em caso de dificuldades, sempre buscar apoio da ONG ou rede de proteção.</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">✂️ Castração: um Ato de Responsabilidade</h2>
+                <p>
+                    Além de ser um gesto ético, a castração previne doenças, reduz fugas e comportamentos indesejados. Como destaca o Ministério Público de MG, "a castração é fundamental para o controle populacional e redução do abandono".
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">🏡 Adaptação ao Novo Lar</h2>
+                <ul>
+                    <li>Permita que o animal explore a casa no próprio ritmo.</li>
+                    <li>Crie rotinas de alimentação e passeios.</li>
+                    <li>Supervisionar os primeiros encontros com crianças ou outros pets é essencial.</li>
+                    <li>Mantenha a paciência: adaptação pode levar dias ou semanas.</li>
+                </ul>
+                
+                <div class="quote">
+                    "Uma adaptação tranquila é o primeiro passo para um vínculo saudável." – RSPCA Australia
+                </div>
+            </div>
+            
+            <div class="contacts">
+                <h3>📞 Contato da ONG</h3>
+                <p>Tem dúvidas? Fale com a gente!</p>
+                <div class="contact-info">
+                    <p><a href="https://www.instagram.com/grupomatilhaestrela/" target="_blank" style="display: flex; align-items: center; text-decoration: none; color: var(--accent-color);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        @grupomatilhaestrela
+                    </a></p>
+                    <p>Márcia: +55 (61) 98312-1222</p>
+                    <p>Vinícius: +55 (61) 98238-8353</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <p class="quote heart-icon">
+                    ❤️ Quando você adota com responsabilidade, duas vidas mudam: a do pet e a sua.
+                </p>
+            </div>
+            
+            <div class="references">
+                <h3>📚 Referências:</h3>
+                <p>
+                    1. Ministério Público do Distrito Federal e Territórios (MPDFT). <em>Guia de Adoção Responsável.</em> Disponível em: <a href="https://www.mpdft.mp.br/portal/pdf/produtos-e-servicos/mpdfit/guia_adocao_responsavel.pdf" target="_blank">https://www.mpdft.mp.br/portal/pdf/produtos-e-servicos/mpdfit/guia_adocao_responsavel.pdf</a>
+                </p>
+                <p>
+                    2. Ministério Público de Minas Gerais (MPMG). <em>Guia de Guarda Responsável.</em> Disponível em: <a href="https://www.mpmg.mp.br/portal/resource/file/PDF/guia-guarda-responsavel.pdf" target="_blank">https://www.mpmg.mp.br/portal/resource/file/PDF/guia-guarda-responsavel.pdf</a>
+                </p>
+                <p>
+                    3. RSPCA Australia. <em>Considering a Pet – Pet Ownership Advice.</em> Disponível em: <a href="https://www.rspca.org.au/adopt-pet/choosing-pet/considering-pet" target="_blank">https://www.rspca.org.au/adopt-pet/choosing-pet/considering-pet</a>
+                </p>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>Grupo Matilha Estrela &copy; 2025</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/grupomatilhaestrela/" target="_blank" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
